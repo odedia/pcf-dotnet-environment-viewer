@@ -1,7 +1,0 @@
----
-applications:
-- name: dotnet-app
-  host: env-${random-word}
-  memory: 1024m
-  stack: windows2016
-  buildpack: hwc_buildpack
